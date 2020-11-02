@@ -3,12 +3,14 @@ import ReactDOM from "react-dom";
 
 import "./styles.css";
 
+import Title from "./componets/Title";
+
 class Layout extends React.Component {
   render() {
     return (
-      <React.Fragment>
-        <h1>Firebase Gallery</h1>
-      </React.Fragment>
+      <div className="Gallery_App">
+        <Title />
+      </div>
     );
   }
 }

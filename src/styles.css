@@ -1,3 +1,4 @@
+/* Css reset Section */
 *,
 *:before,
 *:after {
@@ -8,3 +9,35 @@
   border: 0;
   outline: 0;
 }
+/* --Css reset  Section */
+
+/* Gallery_App Section */
+
+.Gallery_App {
+  max-width: 960px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+/* --Gallery_App   Section */
+
+/* Title Section */
+.title h1 {
+  color: red;
+  font-size: 1.2rem;
+  letter-spacing: 2px;
+  font-weight: normal;
+  margin-top: 30px;
+}
+
+.title h2,
+.title p {
+  text-align: center;
+}
+
+.title h2 {
+  margin-top: 60px;
+  font-size: 2.6rem;
+  margin-bottom: 1rem;
+}
+
+/* Title Section */
