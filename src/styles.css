@@ -40,4 +40,13 @@
   margin-bottom: 1rem;
 }
 
-/* Title Section */
+/* --Title Section */
+
+/* Progress bar Section */
+.progress-bar {
+  height: 5px;
+  background-color: red;
+  margin-top: 20px;
+}
+
+/* --Progress bar Section */
