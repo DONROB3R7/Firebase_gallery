@@ -21,21 +21,26 @@ img {
   width: 100%;
   height: auto;
 }
+
+input {
+  display: none;
+}
 /* --Css general Section */
 
 /* Gallery_App Section */
 
 .Gallery_App {
-  max-width: 960px;
+  max-width: 1200px;
   margin: 0 auto;
   padding: 0 20px;
 }
 /* --Gallery_App   Section */
 
 /* Title Section */
+
 .title h1 {
-  color: red;
-  font-size: 1.2rem;
+  color: #f44336;
+  font-size: 2.2rem;
   letter-spacing: 2px;
   font-weight: normal;
   margin-top: 30px;
@@ -44,6 +49,7 @@ img {
 .title h2,
 .title p {
   text-align: center;
+  color: #00bec4;
 }
 
 .title h2 {
@@ -70,6 +76,31 @@ img {
   grid-template-columns: 1fr;
   grid-gap: 10px;
 }
+
+.img-grid img {
+  height: 100%;
+}
+
+.img-grid .img-wrap:hover {
+  cursor: pointer;
+}
+
+@media (min-width: 400px) {
+  .img-grid {
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
+@media (min-width: 800px) {
+  .img-grid {
+    grid-auto-rows: 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+  }
+}
+
 /* --Images Grid  Section */
 
 /* Modal Images Section */
@@ -91,3 +122,30 @@ img {
   border: 3px solid #fff;
 }
 /* --Modal Images Section */
+
+/* Output Section */
+.output {
+  text-align: center;
+  color: #f44336;
+  font-size: 1.2rem;
+}
+
+form span {
+  display: block;
+  width: 30px;
+  height: 30px;
+  border: 1px solid #f44336;
+  border-radius: 50%;
+  margin: 10px auto;
+  line-height: 30px;
+  color: #f44336;
+  font-weight: bold;
+  font-size: 24px;
+  text-align: center;
+}
+
+form span:hover {
+  cursor: pointer;
+}
+
+/* --Output Section */

@@ -18,7 +18,6 @@ class Layout extends React.Component {
 
   setStatedImg = (link) => {
     this.setState({ ModalImg: link });
-    console.log(link);
   };
 
   render() {
